@@ -1,0 +1,11 @@
+#Add this link to activate ngrok terminal --> 
+
+ngrok config add-authtoken 2vWJJzfFh0xq7b7V5oD6fFF5woE_4TZqgJjHNEnUTSkfxKDqx
+
+#After that add this command -->
+
+ngrok http 5000 
+
+#After that add generated link to the -->
+
+Twilio Console -> Sandbox Settings -> When a message comes in -> with (../WhatsApp) -> Save
